@@ -1,0 +1,174 @@
+body {
+	padding: 0;
+	margin: 0;
+	color: #000;
+	font: 16px;
+	font-family: 'Anton',
+		sans-serif;
+	font-family: 'Open Sans',
+		sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+ul,
+li {
+	display: block;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+section {
+	padding-top: 113px;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header {
+	background: url(../img/header-bg.jpg) no-repeat center top / cover;
+}
+
+header a {
+	color: #fff;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	padding-top: 57px;
+	margin-bottom: 217px;
+}
+
+.logo {
+	margin-right: 69px;
+}
+
+.menu {
+	display: flex;
+	letter-spacing: 0.1em;
+
+}
+
+.menu li {
+	font-size: 14px;
+	margin-right: 40px;
+}
+
+.menu li a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+
+}
+
+.tel {
+	text-decoration: none;
+	color: #fff;
+	margin-left: auto;
+	letter-spacing: 0.1em;
+}
+
+.offer {
+
+	color: #fff;
+	padding-bottom: 322px;
+
+
+}
+
+.offer h1 {
+	font-size: 100px;
+	text-transform: uppercase;
+	margin-top: -9px;
+	margin-bottom: 30px;
+}
+
+.offer p {
+	font-size: 30px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+
+.btn {
+	display: block;
+	font-size: 17px;
+	text-align: center;
+	width: 238px;
+	border: 1px solid #FFFFFF;
+	color: #fff;
+	text-decoration: none;
+	padding: 18px 23px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	transition: all 0.2 ease;
+}
+
+.btn:hover {
+	color: #000;
+	background: #fff;
+}
+
+.about h2 {
+	font-family: Anton;
+	font-size: 50px;
+	margin-bottom: 58px;
+}
+
+.discription {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 67px;
+}
+
+.discription p {
+	font-family: Open Sans;
+	width: 564px;
+	font-size: 16px;
+	line-height: 1.6em;
+}
+
+.discriptino-left h3 {
+	font-family: Anton;
+	font-size: 25px;
+	width: 564px;
+	margin-bottom: 19px;
+}
+
+.discription-rught h3 {
+	font-family: Anton;
+	font-size: 25px;
+	width: 564px;
+	margin-bottom: 19px;
+}
+
+.gallary {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-text {
+	font-size: 15px;
+	font-family: 'Open Sans';
+	padding: 117px 0;
+	display: flex;
+}
+
+.footer-text p {
+
+	margin-right: 60px;
+}
